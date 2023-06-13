@@ -78,3 +78,44 @@ What is the cheapest method of shipping a 4.8 pound package and how much would i
 
 What is the cheapest method of shipping a 41.5 pound package and how much would it cost?
 */
+
+
+/*
+HINTS
+
+Q1. It should look something like: 
+        weight = 80
+    This will be the variable that you will check against in you if statements
+
+Q2. Your if statement should take a form similar to:
+        if weight <= 2:
+            cost_ground = weight * 1.5 + 20
+        elif weight [SOME INEQUALITY]:
+            # more calculation
+        elif weight [SOME INEQUALITY]:
+            # more calculation
+        else:
+            # last calculation
+Q2. It's helpful to periodically test the output of your calculations using print statements.
+    Suppose your calculation is stored in a cost_ground variable:
+        print(cost_ground)
+
+Q4. The Ground Shipping Premium has a flat fee of $125.00:
+        cost_ground_premium = 125.00
+
+Q5. It should look something like:
+        cost_ground_premium = 125.00
+    print("Ground Shipping Premium $", cost_ground_premium)
+
+Q6. This if statement should look very similar to the if statement you wrote for ground shipping. You can even copy 
+    the syntax directly and just change the numbers!
+
+Q7. For 4.8 pounds, ground shipping is the cheapest:
+        Ground Shipping $ 34.4
+        Ground Shipping Premium $ 125.0
+        Drone Shipping: $ 43.199999999999996
+    For 41.5 pounds, ground shipping premium is the cheapest:
+        Ground Shipping $ 217.125
+        Ground Shipping Premium $ 125.0
+        Drone Shipping: $ 591.375
+*/
